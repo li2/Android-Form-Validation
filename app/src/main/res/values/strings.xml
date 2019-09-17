@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android Form</string>
+    <!--Form Validation-->
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="invalid_password">Please enter 6 or more characters</string>
+</resources>
