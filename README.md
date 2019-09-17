@@ -2,7 +2,7 @@
 
 As an Android developer, you may have worked on screens which allow the user to input and submit the changes to server, such as login, sign up, address, update profile, etc. Let's call these screens as form in this article. Normally the form is not allowed to submit until all mandatory fields are filled correctly. For a better user experience, an error message should be shown below the mandatory field if it's not valid, the submit button should be disabled as long as one mandatory field is not valid.
 
-![android-form-validation](https://user-images.githubusercontent.com/6058601/65045075-7eb0f880-d9a1-11e9-9f06-d5518891d305.gif)
+<img width="300" alt="android-form-validation" src="https://user-images.githubusercontent.com/6058601/65045075-7eb0f880-d9a1-11e9-9f06-d5518891d305.gif">
 
 ## `combineLatest` One subscription chain
 
@@ -143,6 +143,4 @@ Say if the screen contains a submit button on the bottom of the form and also a 
                 Observable.merge(signUpMenuClicks, btn_signup.clicks().throttleFirstShort()).map { form }
             }
 
-That's it, you can also check codes on GitHub:
-
-[](https://github.com/li2/Android-Form-Validation)
+That's it, you can also check codes on [GitHub](https://github.com/li2/Android-Form-Validation).
